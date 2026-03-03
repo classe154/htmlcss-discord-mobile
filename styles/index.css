@@ -13,8 +13,7 @@
 body {
     width: 512px;
     margin: 0 auto;
-    font-family: "DM Sans";
-    font-style: italic;
+    outline: 1px solid red;
 }
 
 /*
@@ -53,8 +52,133 @@ body {
  * ====================================================================================
 */
 
+:root {
+    --primary-color: #191d7b;
+    --secondary-color: #5d64d1;
+    --tertiary-color: #5865f2;
+}
+
 /*
  * ====================================================================================
  * Utility 
  * ====================================================================================
 */
+
+.font-sigmar {
+    font-family: "Sigmar", sans-serif;
+}
+
+.font-dm {
+    font-family: "DM Sans", sans-serif;
+}
+
+.d-block {
+    display: block;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.bg-primary {
+    background-color: var(--primary-color);
+}
+
+.bg-secondary {
+    background-color: var(--secondary-color);
+}
+
+.bg-tertiary {
+    background-color: var(--tertiary-color);
+}
+
+.border-rad-20 {
+    border-radius: 20px;
+}
+
+
+.pos-abs {
+    position: absolute;
+}
+
+.pos-rel {
+    position: relative;
+}
+
+/*
+ * ====================================================================================
+ * Main
+ * ====================================================================================
+*/
+
+.main {
+    padding: 30px 0;
+}
+
+/*
+ * ====================================================================================
+ * Links
+ * ====================================================================================
+*/
+
+.links {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+
+.links-title {
+    font-size: 32px;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.links-description {
+    margin-bottom: 10px;
+}
+
+.link {
+    font-size: 1rem;
+    padding: 20px 0;
+    margin-bottom: 10px;
+}
+
+/*
+ * ====================================================================================
+ * Features
+ * ====================================================================================
+*/
+
+.feature {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto 0;
+    padding: 60px 25px;
+}
+
+.feature-icon {
+    width: 125px;
+    top: 0;
+    left: 25%;
+    translate: -50% -50%;
+}
+
+.feature-title {
+    margin-bottom: 20px;
+    font-size: 32px;
+    line-height: 1;
+}
+
+.feature-description {
+    margin-bottom: 20px;
+}
