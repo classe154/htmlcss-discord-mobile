@@ -22,6 +22,7 @@ body {
  * ====================================================================================
 */
 
+/*
 @font-face {
     font-family: "DM Sans";
     src: url("../fonts/DM_Sans/DMSans-VariableFont_opsz\,wght.ttf") format('truetype');
@@ -45,6 +46,7 @@ body {
     font-weight: 100 900;
     font-display: swap;
 }
+*/
 
 /*
  * ====================================================================================
@@ -151,6 +153,7 @@ body {
     font-size: 1rem;
     padding: 20px 0;
     margin-bottom: 10px;
+    border: 0;
 }
 
 /*

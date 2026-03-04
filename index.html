@@ -6,11 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Html Discord Mobile</title>
 
-    <link rel="stylesheet" href="styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Sigmar&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- Sono il re del mondo -->
+    <link rel="stylesheet" href="./styles/index.css">
 </head>
 
-<body>
-    <header>
+<body class="body">
+    <header class="header">
         <img src="./imgs/banner.png" alt="" class="header-image d-block w-100">
     </header>
 
@@ -23,12 +32,13 @@
             <h1 class="links-title font-sigmar">
                 Group chat that's all fun & games
             </h1>
-            <p class="links-description">Discord is great for playing games, chilling with friends, or evenbuilding a worldwide community.
+            <p class="links-description">
+                Discord is great for playing games, chilling with friends, or evenbuilding a worldwide community.
                 Customize
                 your own space to talk and play!
             </p>
             <button class="link link-1 d-block w-100 border-rad-20">
-                Download for Windows
+                <i class="bi bi-cloud-download"></i> Download for Windows
             </button>
             <a class="link link-2 d-block bg-tertiary border-rad-20">
                 Open Discord in your Browser
@@ -69,9 +79,11 @@
                     video, or text
                     chat. Set your avatar and a custom status, and write your own profile to show up in chat your way.
                 </p>
-                <img class="feature-image d-block w-100 border-rad-20" src="./imgs/streamer_demo.png" alt="">
+                <!--<img class="feature-image d-block w-100 border-rad-20" src="./imgs/streamer_demo.png" alt="">-->
+                <video class="feature-video d-block w-100" src="./videos/streamer.mp4" controls autoplay muted></video>
             </div>
         </section>
     </main>
 </body>
+
 </html>
